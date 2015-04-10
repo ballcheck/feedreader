@@ -1,0 +1,9 @@
+We're going with Rails 4.1, and Ruby 2.1 as this is what Audioboom use
+Also Rspec, not sure which gem version they use but we're going with 3.2
+
+Ignoring certain files by editing: .git/info/exclude
+
+Install bundle with binstubs flag. This creates stubs in ./bin folder, ensuring the right version gets used. This may mean we don't need bundle exec anymore
+> bundle install --binstubs
+
+TODO: look at adding ./bin to so we don't have to call bin/rake etc.
