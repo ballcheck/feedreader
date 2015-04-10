@@ -7,3 +7,7 @@ Install bundle with binstubs flag. This creates stubs in ./bin folder, ensuring 
 > bundle install --binstubs
 
 TODO: look at adding ./bin to so we don't have to call bin/rake etc.
+
+
+Initialised project to use RSpec
+> bin/rspec --init
